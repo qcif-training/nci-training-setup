@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Running and Quitting JupyterLab on NCI
-permalink: /02-jupyterlab_run-quit/
+permalink: /jupyterlab/
 ---
 
 # Running and Quitting JupyterLab on NCI

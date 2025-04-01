@@ -1,7 +1,7 @@
 ---
 layout: default
 title: NCI Setup - Jupyter Lab
-permalink: /01-setup/
+permalink: /setup/
 ---
 
 # NCI Setup - Jupyter Lab
