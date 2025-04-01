@@ -18,7 +18,7 @@ Sign up for an [NCI account] if you don't already have one.
 Select **Projects and groups** from the left hand side menu and then select the **Find project or group** tab. Search for **cd82**, the NCI-QCIF Training Partnership Project, and ask to join.
 
 <p align='center'>
-  <img alt="NCI Find a project or group page" src="fig/setup_my_nci_project_cd82.png" width="750"/>
+  <img alt="NCI Find a project or group page" src="../fig/setup_my_nci_project_cd82.png" width="750"/>
 </p>
 
 ## NCI Australian Research Environment (ARE)
@@ -30,7 +30,7 @@ Be sure you use your NCI ID (eg, ab1234) for the username and not your email add
 Under **Featured Apps**, find and click the **JupterLab: Start a JupyterLab instance** option.
 
 <p align='center'>
-  <img alt="NCI ARE JupyterLab" src="fig/setup_nci_are_mainpage.png" width="750"/>
+  <img alt="NCI ARE JupyterLab" src="../fig/setup_nci_are_mainpage.png" width="750"/>
 </p>
 
 To Launch a JuptyerLab session, set these resource requirements:
@@ -56,7 +56,7 @@ Once found, the page will update with a button that you can click to **Open Jupy
 Here is a screenshot of a JupyterLab landing page that should be similar to the one that opens in your web browser after starting the JupyterLab server on either macOS or Windows.
 
 <p align='center'>
-  <img alt="JupyterLab landing page" src="fig/setup_jupyterlab_landing_page.png" width="750"/>
+  <img alt="JupyterLab landing page" src="../fig/setup_jupyterlab_landing_page.png" width="750"/>
 </p>
 
 
