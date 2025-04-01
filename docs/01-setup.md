@@ -1,6 +1,10 @@
 ---
-title: "NCI Setup - Jupyter Lab"
+layout: default
+title: NCI Setup - Jupyter Lab
+permalink: /01-setup/
 ---
+
+# NCI Setup - Jupyter Lab
 
 As part of our partnership with NCI, QCIF is offering free foundational training workshops in applied computing topics to support researchers across Australia in tackling complex societal challenges across various scientific fields and industries.
 
