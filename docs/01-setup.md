@@ -8,22 +8,22 @@ permalink: /setup/
 
 As part of our partnership with NCI, QCIF is offering free foundational training workshops in applied computing topics to support researchers across Australia in tackling complex societal challenges across various scientific fields and industries.
 
-These instructions are for the NCI-QCIF Training Partnership Project using python virtual environments to run Jupyter Notebooks on [NCI's Gadi supercomputer](https://nci.org.au/news-events/events/introduction-gadi-4).
+These instructions are for the NCI-QCIF Training Partnership Project using python virtual environments to run Jupyter Notebooks on [NCI's Gadi supercomputer].
 
 
 ## NCI Account Setup
 
-Sign up for an [NCI account](https://my.nci.org.au) if you don't already have one.
+Sign up for an [NCI account] if you don't already have one.
 
 Select **Projects and groups** from the left hand side menu and then select the **Find project or group** tab. Search for **cd82**, the NCI-QCIF Training Partnership Project, and ask to join.
 
 <p align='center'>
-  <img alt="NCI Find a project or group page" src="../fig/setup_my_nci_project_cd82.png" width="750"/>
+  <img alt="NCI Find a project or group page" src="{{ site.baseurl }}/fig/setup_my_nci_project_cd82.png" width="750"/>
 </p>
 
 ## NCI Australian Research Environment (ARE)
 
-Connect to [NCI Australian Research Environment](https://are.nci.org.au).
+Connect to [NCI Australian Research Environment].
 
 Be sure you use your NCI ID (eg, ab1234) for the username and not your email address.
 
@@ -58,4 +58,11 @@ Here is a screenshot of a JupyterLab landing page that should be similar to the 
 <p align='center'>
   <img alt="JupyterLab landing page" src="../fig/setup_jupyterlab_landing_page.png" width="750"/>
 </p>
+
+
+<!-- Collect your link references at the bottom of your document -->
+
+[NCI's Gadi supercomputer]: https://nci.org.au/news-events/events/introduction-gadi-4
+[NCI account]: https://my.nci.org.au
+[NCI Australian Research Environment]: https://are.nci.org.au
 
