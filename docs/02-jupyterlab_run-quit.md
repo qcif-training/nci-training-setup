@@ -92,7 +92,7 @@ Under the File Browser tab you will also find buttons for the Launcher and to cr
 
 A screenshot of the default Left Side Bar is provided below.
 
-<p align='center'>   <img alt="JupyterLab Left Side Bar" src="../fig/jupyterlab_left_side_bar.png" width="250"/>
+<p align='center'>   <img alt="JupyterLab Left Side Bar" src="{{ site.baseurl }}/assets/jupyterlab_left_side_bar.png" width="250"/>
 </p>
 
 The left sidebar can be collapsed or expanded by selecting "Show Left Sidebar" in the View menu or by clicking on the active sidebar tab.
@@ -103,7 +103,7 @@ The main work area in JupyterLab enables you to arrange documents (notebooks, te
 
 If you do not see the Launcher tab, click the blue plus sign under the "File" and "Edit" menus and it will appear.
 
-<p align='center'>   <img alt="JupyterLab Main Work Area" src="../fig/jupyterlab_main_work_area.png" width="750"/>
+<p align='center'>   <img alt="JupyterLab Main Work Area" src="{{ site.baseurl }}/assets/jupyterlab_main_work_area.png" width="750"/>
 </p>
 
 You can subdivide a tab panel by dragging a tab to the left, right, top, or bottom of the panel.
@@ -280,7 +280,7 @@ These commands will:
 !ls /scratch/cd82/$USER/notebooks/
 ```
 
-![](../fig/00_workingdir_scripts.png){alt='Screenshot of the contents of the notebooks folder in the users working directory.'}
+![]({{ site.baseurl }}/assets/00_workingdir_scripts.png){alt='Screenshot of the contents of the notebooks folder in the users working directory.'}
 
 ### Check your environment has the necessary libraries installed
 
@@ -288,7 +288,7 @@ On the Left Sidebar, navigate to the *notebooks* directory you just created.
 
 Open the *00_setup_check.ipynb* notebook and run the cells to check that you have the necessary libraries installed.
 
-![](../fig/00_package_check_output.png){alt='Screenshot of the Jupyter Notebook with list of library versions and no error messages.'}
+![]({{ site.baseurl }}/assets/00_package_check_output.png){alt='Screenshot of the Jupyter Notebook with list of library versions and no error messages.'}
 
 ## Closing JupyterLab
 
