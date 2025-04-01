@@ -17,9 +17,8 @@ Sign up for an [NCI account] if you don't already have one.
 
 Select **Projects and groups** from the left hand side menu and then select the **Find project or group** tab. Search for **cd82**, the NCI-QCIF Training Partnership Project, and ask to join.
 
-<p align='center'>
-  <img alt="NCI Find a project or group page" src="{{ site.baseurl }}/fig/setup_my_nci_project_cd82.png" width="750"/>
-</p>
+![NCI Find a project or group page](../fig/setup_my_nci_project_cd82.png)
+
 
 ## NCI Australian Research Environment (ARE)
 
