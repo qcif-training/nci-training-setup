@@ -29,7 +29,7 @@ Be sure you use your NCI ID (eg, ab1234) for the username and not your email add
 Under **Featured Apps**, find and click the **JupterLab: Start a JupyterLab instance** option.
 
 <p align='center'>
-  <img alt="NCI ARE JupyterLab" src="/assets/setup_nci_are_mainpage.png" width="750"/>
+  <img alt="NCI ARE JupyterLab" src="{{ site.baseurl }}/assets/setup_nci_are_mainpage.png" width="750"/>
 </p>
 
 To Launch a JuptyerLab session, set these resource requirements:
