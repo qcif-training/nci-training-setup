@@ -1,6 +1,6 @@
 ## NCI-QCIF Training Platform Setup Guide
 
-Welcome to the NCI-QCIF Training Platform Setup Guide! This repository contains instructions for setting up and using our training platform, including Jupyter and Virtual Desktop (VDI) applicatoins.
+Welcome to the NCI-QCIF Training Platform Setup Guide! This repository contains instructions for setting up and using our training platform, including Jupyter and Virtual Desktop (VDI) applications.
 
 ### Table of Contents
 1. Setup Instructions
