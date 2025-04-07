@@ -143,44 +143,22 @@ Examples of markdown syntax and its rendered output.
 
 | Markdown code                         | Rendered output                                |
 |---------------------------------------|------------------------------------------------|
-| ```                                   | <p></p>                                        |
-| *   Use asterisks                     | -   Use asterisks                              |
-| *   to create                         | -   to create                                  |
-| *   bullet lists.                     | -   bullet lists.                              |
+| ```                                   | <ul>                                           |
+| *   Use asterisks                     | <li>Use asterisks</li>                         |
+| *   to create                         | <li>to create</li>                             |
+| *   bullet lists.                     | <li>bullet lists.</li>                         |
+| ```                                   | </ul>                                          |
 | ```                                   |                                                |
-| ```                                   | <p></p>                                        |
 | 1.   Use numbers                      | 1.   Use numbers                               |
 | 1.   to create                        | 2.   to create                                 |
 | 1.   bullet lists.                    | 3.   numbered lists.                           |
 | ```                                   |                                                |
-| ```                                   | <p></p>                                        |
-| *  You can use indents                | - You can use indents                          |
-|   *  To create sublists               |   - To create sublists                         |
-|   *  of the same type                 |   - of the same type                           |
-| *  Or sublists                        | - Or sublists                                  |
-|   1. Of different                     |   1. Of different                              |
-|   1. types                            |   2. types                                     |
 | ```                                   |                                                |
-| ```                                   | <p></p>                                        |
-| # A Level-1 Heading                   | ## A Level-1 Heading                           |
+| # A Level-1 Heading                   | <h2>A Level-1 Heading</h2>                     |
 | ```                                   |                                                |
-| ```                                   | <p></p>                                        |
-| ## A Level-2 Heading (etc.)           | ### A Level-2 Heading (etc.)                   |
 | ```                                   |                                                |
-| ```                                   | <p></p>                                        |
-| Line breaks                           | Line breaks                                    |
-| don't matter.                         | don't matter.                                  |
-|                                       |                                                |
-| But blank lines                       | But blank lines                                |
-| create new paragraphs.                | create new paragraphs.                         |
+| ## A Level-2 Heading (etc.)           | <h3>A Level-2 Heading (etc.)</h3               |
 | ```                                   |                                                |
-| ```                                   | <p></p>                                        |
-| [Links](http://software-carpare-carpentry.org`.        | are created with `[....                 |
-| Or use [named links][data-carp].      | Or use [named links][data_carpentry].          |
-|                                       |                                                |
-| [data-carp]: http://datacarpentry.org |                                                |
-| ```                                   |                                                |
-
 
 Now that are you are familiar with Jupyter Notebooks in JupyterLab, let us set up  our environment for the workshop by making copies of today's workshop notebooks and checking we have the packages we need installed.
 
@@ -201,7 +179,8 @@ These commands will:
 !ls /scratch/cd82/$USER/notebooks/
 ```
 
-![]({{ site.baseurl }}/assets/00_workingdir_scripts.png){alt='Screenshot of the contents of the notebooks folder in the users working directory.'}
+<p align='center'>   <img alt="Screenshot of the contents of the notebooks folder in the users working directory." src="{{ site.baseurl }}/assets/00_workingdir_scripts.png" width="750"/>
+</p>
 
 ### Check your environment has the necessary libraries installed
 
@@ -209,7 +188,8 @@ On the Left Sidebar, navigate to the *notebooks* directory you just created.
 
 Open the *00_setup_check.ipynb* notebook and run the cells to check that you have the necessary libraries installed.
 
-![]({{ site.baseurl }}/assets/00_package_check_output.png){alt='Screenshot of the Jupyter Notebook with list of library versions and no error messages.'}
+<p align='center'>   <img alt="Screenshot of the Jupyter Notebook with list of library versions and no error messages." src="{{ site.baseurl }}/assets/00_package_check_output.png" width="750"/>
+</p>
 
 ## Closing JupyterLab
 
