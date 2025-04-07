@@ -43,17 +43,6 @@ Explorer versions 9 and below are *not* supported.
 
 In this lesson we will run JupyterLab on [NCI's Gadi supercomputer].
 
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## JupyterLab? What about Jupyter notebooks?
-
-[JupyterLab] is the next stage in the evolution of the Jupyter Notebook. If you have prior experience working with Jupyter notebooks, then you will have a good idea of what to expect from JupyterLab.
-
-Experienced users of Jupyter notebooks interested in a more detailed discussion of the similarities and differences between the JupyterLab and Jupyter notebook user interfaces can find more information in the [JupyterLab Interface] documentation.
-
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
 ## The JupyterLab Interface
 
 JupyterLab has many features found in traditional integrated development environments (IDEs) but is focused on providing flexible building blocks for interactive, exploratory computing.
@@ -72,17 +61,6 @@ The Menu Bar at the top of JupyterLab has the top-level menus that expose variou
 - **Tabs:** A list of the open documents and activities in the main work area.
 - **Settings:** Common JupyterLab settings can be configured using this menu. There is also an *Advanced Settings Editor* option in the dropdown menu that provides more fine-grained control of JupyterLab settings and configuration options.
 - **Help:** A list of JupyterLab and kernel help links.
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## Kernels
-
-The [JupyterLab docs] define kernels as "separate processes started by the server that runs your code in different programming languages and environments." When we open a Jupyter Notebook, that starts a kernel - a process - that is going to run the code. In this lesson, we'll be using the Jupyter ipython kernel which lets us run Python 3 code interactively.
-
-Using other Jupyter [kernels for other programming languages] would let us
-write and execute code in other programming languages in the same JupyterLab interface, like R, Java, Julia, Ruby, JavaScript, Fortran,etc.
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Left Sidebar
 
@@ -110,7 +88,7 @@ You can subdivide a tab panel by dragging a tab to the left, right, top, or bott
 
 ## Creating a Jupyter Notebook
 
-:::::::::::::::::::::::::::::::::::::::::  callout
+<p class="callout warning">
 
 ## Change Your Working Directory!
 
@@ -120,7 +98,7 @@ Use the File Browser tab on the left sidebar to navigate to your personal folder
 
 If you do not see a folder with your NCI ID use the 'New Folder' button to create one.
 
-::::::::::::::::::::::::::::::::::::::::::::::::::
+</p>
 
 To open a new notebook click the Python 3 icon under the *Notebook* header in the Launcher tab in the main work area. You can also create a new notebook by selecting *New -> Notebook* from the *File* menu in the Menu Bar.
 
@@ -128,17 +106,6 @@ Additional notes on Jupyter notebooks.
 
 - Notebook files have the extension `.ipynb` to distinguish them from plain-text Python programs.
 - Notebooks can be exported as Python scripts that can be run from the command line by selecting *Save and Export Notebook As... -> Executable Script* from the *File* menu in the Menu Bar.
-
-:::::::::::::::::::::::::::::::::::::::::  callout
-
-## How It's Stored
-
-- The notebook file is stored in a format called JSON.
-- Just like a webpage, what's saved looks different from what you see in your browser.
-- But this format allows Jupyter to mix source code, text, and images, all in one file.
-  
-::::::::::::::::::::::::::::::::::::::::::::::::::
-
 
 ## The Notebook has Command and Edit modes.
 
@@ -151,32 +118,6 @@ Additional notes on Jupyter notebooks.
   - The <kbd>x</kbd> key will delete the current cell.
   - The <kbd>z</kbd> key will undo your last cell operation (which could be a deletion, creation, etc).
 - All actions can be done using the menus, but there are lots of keyboard shortcuts to speed things up.
-
-:::::::::::::::::::::::::::::::::::::::  challenge
-
-## Command Vs. Edit
-
-In the Jupyter notebook page are you currently in Command or Edit mode?  
-Switch between the modes.
-Use the shortcuts to generate a new cell.
-Use the shortcuts to delete a cell.
-Use the shortcuts to undo the last cell operation you performed.
-
-:::::::::::::::  solution
-
-## Solution
-
-Command mode has a grey border and Edit mode has a blue border.
-Use <kbd>Esc</kbd> and <kbd>Return</kbd> to switch between modes.
-You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Type <kbd>b</kbd> or <kbd>a</kbd>.
-You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Type <kbd>x</kbd>.
-You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Type <kbd>z</kbd>.
-
-
-
-:::::::::::::::::::::::::
-
-::::::::::::::::::::::::::::::::::::::::::::::::::
 
 ### Use the keyboard and mouse to select and edit cells.
 
@@ -195,9 +136,6 @@ You need to be in Command mode (Press <kbd>Esc</kbd> if your cell is blue).  Typ
 - Turn the current cell into a Markdown cell by entering the Command mode (<kbd>Esc</kbd>/gray) and press the <kbd>m</kbd> key.
 - `In [ ]:` will disappear to show it is no longer a code cell and you will be able to write in Markdown.
 - Turn the current cell into a Code cell by entering the Command mode (<kbd>Esc</kbd>/gray) and press the <kbd>y</kbd> key.
-
-:::::::::::::::::::::::::::::::::::::::  spoiler
-
 
 ### Markdown does most of what HTML does.
 
@@ -258,8 +196,6 @@ Examples of markdown syntax and its rendered output.
 | [data-carp]: http://datacarpentry.org |                                                |
 | ```                                   |                                                |
 +---------------------------------------+------------------------------------------------+
-
-:::::::::::::::::::::::::::::::::::::::::::::::
 
 Now that are you are familiar with Jupyter Notebooks in JupyterLab, let us set up  our environment for the workshop by making copies of today's workshop notebooks and checking we have the packages we need installed.
 
