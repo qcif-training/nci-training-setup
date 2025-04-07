@@ -139,22 +139,23 @@ Examples of markdown syntax and its rendered output.
 
 | Markdown code                         | Rendered output                                |
 |---------------------------------------|------------------------------------------------|
-| ```                                   | <ul>                                           |
-| *   Use asterisks                     | <li>Use asterisks</li>                         |
-| *   to create                         | <li>to create</li>                             |
-| *   bullet lists.                     | <li>bullet lists.</li>                         |
-| ```                                   | </ul>                                          |
-| ```                                   |                                                |
-| 1.   Use numbers                      | 1.   Use numbers                               |
-| 1.   to create                        | 2.   to create                                 |
-| 1.   bullet lists.                    | 3.   numbered lists.                           |
-| ```                                   |                                                |
-| ```                                   |                                                |
-| # A Level-1 Heading                   | <h2>A Level-1 Heading</h2>                     |
-| ```                                   |                                                |
-| ```                                   |                                                |
-| ## A Level-2 Heading (etc.)           | <h3>A Level-2 Heading (etc.)</h3               |
-| ```                                   |                                                |
+| ```html                               | <div markdown="1">                             |
+| - Use asterisks                       | - Use asterisks                                |
+| - to create                           | - to create                                    |
+| - bullet lists.                       | - bullet lists.                                |
+| ```                                   | </div>                                         |
+| ```html                               | <div markdown="1">                             |
+| 1. Use numbers                        | 1. Use numbers                                 |
+| 2. to create                          | 2. to create                                   |
+| 3. numbered lists.                    | 3. numbered lists.                             |
+| ```                                   | </div>                                         |
+| ```html                               | <div markdown="1">                             |
+| # A Level-1 Heading                   | # A Level-1 Heading                            |
+| ```                                   | </div>                                         |
+| ```html                               | <div markdown="1">                             |
+| ## A Level-2 Heading (etc.)           | ## A Level-2 Heading (etc.)                    |
+| ```                                   | </div>                                         |
+
 
 Now that are you are familiar with Jupyter Notebooks in JupyterLab, let us set up  our environment for the workshop by making copies of today's workshop notebooks and checking we have the packages we need installed.
 
