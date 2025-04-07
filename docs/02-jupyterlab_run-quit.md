@@ -88,7 +88,7 @@ You can subdivide a tab panel by dragging a tab to the left, right, top, or bott
 
 ## Creating a Jupyter Notebook
 
-<p class="callout warning">
+<p style="background-color: yellow; padding: 10px; border: 1px solid red;">
 
 ## Change Your Working Directory!
 
