@@ -135,26 +135,8 @@ Additional notes on Jupyter notebooks.
 
 ### Markdown does most of what HTML does.
 
-Examples of markdown syntax and its rendered output.
-
-| Markdown code                         | Rendered output                                |
-|---------------------------------------|------------------------------------------------|
-| ```html                               | <div markdown="1">                             |
-| - Use asterisks                       | - Use asterisks                                |
-| - to create                           | - to create                                    |
-| - bullet lists.                       | - bullet lists.                                |
-| ```                                   | </div>                                         |
-| ```html                               | <div markdown="1">                             |
-| 1. Use numbers                        | 1. Use numbers                                 |
-| 2. to create                          | 2. to create                                   |
-| 3. numbered lists.                    | 3. numbered lists.                             |
-| ```                                   | </div>                                         |
-| ```html                               | <div markdown="1">                             |
-| # A Level-1 Heading                   | # A Level-1 Heading                            |
-| ```                                   | </div>                                         |
-| ```html                               | <div markdown="1">                             |
-| ## A Level-2 Heading (etc.)           | ## A Level-2 Heading (etc.)                    |
-| ```                                   | </div>                                         |
+<p align='center'>   <img alt="Markdown actual and rendered." src="{{ site.baseurl }}/assets/markdown_examples.png" width="750"/>
+</p>
 
 
 Now that are you are familiar with Jupyter Notebooks in JupyterLab, let us set up  our environment for the workshop by making copies of today's workshop notebooks and checking we have the packages we need installed.
