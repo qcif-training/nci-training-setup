@@ -141,24 +141,18 @@ Additional notes on Jupyter notebooks.
 
 Examples of markdown syntax and its rendered output.
 
-+---------------------------------------+------------------------------------------------+
 | Markdown code                         | Rendered output                                |
-+=======================================+================================================+
-+---------------------------------------+------------------------------------------------+
+|---------------------------------------|------------------------------------------------|
 | ```                                   | <p></p>                                        |
 | *   Use asterisks                     | -   Use asterisks                              |
 | *   to create                         | -   to create                                  |
 | *   bullet lists.                     | -   bullet lists.                              |
 | ```                                   |                                                |
-+---------------------------------------+------------------------------------------------+
-+---------------------------------------+------------------------------------------------+
 | ```                                   | <p></p>                                        |
 | 1.   Use numbers                      | 1.   Use numbers                               |
 | 1.   to create                        | 2.   to create                                 |
 | 1.   bullet lists.                    | 3.   numbered lists.                           |
 | ```                                   |                                                |
-+---------------------------------------+------------------------------------------------+
-+---------------------------------------+------------------------------------------------+
 | ```                                   | <p></p>                                        |
 | *  You can use indents                | - You can use indents                          |
 |   *  To create sublists               |   - To create sublists                         |
@@ -167,18 +161,12 @@ Examples of markdown syntax and its rendered output.
 |   1. Of different                     |   1. Of different                              |
 |   1. types                            |   2. types                                     |
 | ```                                   |                                                |
-+---------------------------------------+------------------------------------------------+
-+---------------------------------------+------------------------------------------------+
 | ```                                   | <p></p>                                        |
 | # A Level-1 Heading                   | ## A Level-1 Heading                           |
 | ```                                   |                                                |
-+---------------------------------------+------------------------------------------------+
-+---------------------------------------+------------------------------------------------+
 | ```                                   | <p></p>                                        |
 | ## A Level-2 Heading (etc.)           | ### A Level-2 Heading (etc.)                   |
 | ```                                   |                                                |
-+---------------------------------------+------------------------------------------------+
-+---------------------------------------+------------------------------------------------+
 | ```                                   | <p></p>                                        |
 | Line breaks                           | Line breaks                                    |
 | don't matter.                         | don't matter.                                  |
@@ -186,16 +174,13 @@ Examples of markdown syntax and its rendered output.
 | But blank lines                       | But blank lines                                |
 | create new paragraphs.                | create new paragraphs.                         |
 | ```                                   |                                                |
-+---------------------------------------+------------------------------------------------+
-+---------------------------------------+------------------------------------------------+
 | ```                                   | <p></p>                                        |
-| [Links](http://software-carpentry.org)| [Links](https://software-carpentry.org)        |
-| are created with `[...](...)`.        | are created with `[...](...)`.                 |
+| [Links](http://software-carpare-carpentry.org`.        | are created with `[....                 |
 | Or use [named links][data-carp].      | Or use [named links][data_carpentry].          |
 |                                       |                                                |
 | [data-carp]: http://datacarpentry.org |                                                |
 | ```                                   |                                                |
-+---------------------------------------+------------------------------------------------+
+
 
 Now that are you are familiar with Jupyter Notebooks in JupyterLab, let us set up  our environment for the workshop by making copies of today's workshop notebooks and checking we have the packages we need installed.
 
