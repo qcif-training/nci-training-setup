@@ -90,13 +90,13 @@ You can subdivide a tab panel by dragging a tab to the left, right, top, or bott
 
 <p style="background-color: yellow; padding: 10px; border: 1px solid red;">
 
-## Change Your Working Directory!
+<h2>Change Your Working Directory!</h2>
 
-Before creating your notebook, make sure you are in the right place! The first time you launch a JuptyerLab session on NCI you will find yourself in the `~/.jupyter-root` folder.
+<p>Before creating your notebook, make sure you are in the right place! The first time you launch a JuptyerLab session on NCI you will find yourself in the `~/.jupyter-root` folder.</p>
 
-Use the File Browser tab on the left sidebar to navigate to your personal folder under `/scratch/cd82` (e.g., /scratch/cd82/ab1234).
+<p>Use the File Browser tab on the left sidebar to navigate to your personal folder under <code>/scratch/cd82</code> (e.g., /scratch/cd82/ab1234).</p>
 
-If you do not see a folder with your NCI ID use the 'New Folder' button to create one.
+<p>If you do not see a folder with your NCI ID use the 'New Folder' button to create one.</p>
 
 </p>
 
